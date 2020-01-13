@@ -1,0 +1,581 @@
+@import url(https://fonts.googleapis.com/css?family=Livvic:300,400,500,600,700&display=swap);
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Livvic",
+    sans-serif;
+}
+
+.rectangle {
+  background: url(../images/Intersection1.png);
+  height: 875px;
+  background-size: cover;
+  position: relative;
+}
+
+.rectangle img {
+  display: block;
+  margin-left: auto;
+  width: 80%;
+  padding: 176px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.menu ul li a {
+  color: #000;
+  font-size: 35px;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+  font-weight: 400;
+}
+
+.selling {
+  padding: 0.5rem 1rem;
+}
+
+.selling h1 {
+  font-size: 70px;
+  padding-top: 130px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.selling p {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+.button {
+  width: 500px;
+  font-size: 22px;
+  margin-top: 30px;
+  background-color: #000;
+}
+
+.button1 {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.rectangle2 {
+  background: url(../images/img2.png);
+  height: 875px;
+  background-size: cover;
+  position: relative;
+}
+
+.rectangle2 img {
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  padding: 176px;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.rectangle3 {
+  background: url(../images/Path367.png);
+  height: 875px;
+  background-size: cover;
+}
+
+.rectangle3 img {
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  padding: 176px;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.get-image {
+  background: url(../images/images.png);
+  height: 875px;
+  background-size: cover;
+}
+
+.get-image3 {
+  background: url(../images/images3.jpg);
+  height: 875px;
+  background-size: cover;
+}
+
+.started {
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.account {
+  /* width: 453px; */
+  /*height: 380px;*/
+  width: 50%;
+
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* .login{
+    height: 340px !important;
+} */
+
+.account-text p {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.alredy a {
+  color: #03a9f4;
+  font-size: 18px;
+}
+
+.next-button {
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+  border-radius: 0;
+  /* width: 453px; */
+  width: 50%;
+  font-size: 28px;
+}
+
+.get-image2 {
+  background: url(../images/images2.png);
+  height: 875px;
+  background-size: cover;
+}
+
+.back-icon i {
+  font-size: 18px;
+  color: #484848;
+}
+
+.menu-btn {
+  background-color: #000;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-toggler {
+  padding: 3px 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .button {
+    width: 100%;
+  }
+
+  .selling p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .selling h1 {
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .pl-5 {
+    padding: 0 !important;
+  }
+
+  .tringle,
+  .rectangle img {
+    display: none;
+  }
+
+  .account,
+  .next-button {
+    width: 100%;
+  }
+
+  .account {
+    height: 100%;
+  }
+
+  .next-button {
+    font-size: 23px;
+  }
+
+  .button1 {
+    margin-right: 0;
+  }
+
+  .rectangle,
+  .rectangle2,
+  .rectangle3 {
+    display: none;
+  }
+
+  .rectangle-responsive {
+    background: url(../images/Intersection1.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rectangle-bag {
+    background: url(../images/bag_yellow.png) no-repeat;
+    height: 234px;
+    margin-top: 40px;
+  }
+
+  .rectangle-responsive2 {
+    background: url(../images/img2.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rectangle-green {
+    background: url(../images/bag_green1.png) no-repeat;
+    height: 234px;
+    margin-top: 40px;
+  }
+
+  .rectangle-responsive3 {
+    background: url(../images/Path367.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rectangle-blue {
+    background: url(../images/bag_blue1.png) no-repeat;
+    height: 234px;
+    margin-top: 40px;
+  }
+
+  .get-image {
+    background: url(../images/images.png);
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+
+  .get-image2 {
+    background: url(../images/images2.png);
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+
+  .menu ul li a {
+    font-size: 25px;
+    padding-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .started {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .selling h1 {
+    font-size: 39px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .rectangle {
+    height: 100%;
+  }
+
+  .selling h1 {
+    font-size: 39px;
+    padding-top: 86px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .selling p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+  }
+
+  .button {
+    width: 285px;
+    font-size: 22px;
+    margin-top: 15px;
+    background-color: #000;
+  }
+
+  .rectangle img {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    padding: 38px;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 60%;
+  }
+
+  .rectangle2 img {
+    display: block;
+    margin-left: auto;
+    width: 93%;
+    padding: 82px;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 8%;
+  }
+
+  .rectangle3 img {
+    display: block;
+    margin-left: auto;
+    width: 93%;
+    padding: 82px;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 8%;
+  }
+
+  .rectangle2 {
+    background: url(../images/img2.png);
+    height: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rectangle3 {
+    background: url(../images/Path367.png);
+    height: 100%;
+    background-size: cover;
+  }
+
+  .responsive-btn {
+    display: none;
+  }
+
+  .menu ul li a {
+    color: #000;
+    font-size: 24px;
+    padding-left: 0px !important;
+    padding-right: 22px !important;
+    font-weight: 400;
+  }
+
+  .get-image {
+    background: url(../images/images.png);
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+
+  .get-image2 {
+    background: url(../images/images2.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu ul li a {
+    font-size: 20px;
+    padding: 9px !important;
+  }
+
+  .started {
+    margin: 0 auto;
+    max-width: 890px;
+  }
+
+  .selling h1 {
+    font-size: 56px;
+    padding-top: 68px;
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .selling p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 42px;
+  }
+
+  .rectangle {
+    height: 100%;
+  }
+
+  .button {
+    width: 340px;
+  }
+
+  .rectangle img {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    padding: 71px;
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+
+  .rectangle2 {
+    background: url(../images/img2.png);
+    height: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .rectangle2 img {
+    display: block;
+    width: 90%;
+    padding-right: 30px;
+    padding: 50px;
+    padding-bottom: 0;
+  }
+
+  .rectangle3 {
+    height: 100%;
+  }
+
+  .rectangle3 img {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    padding: 110px;
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+
+  .responsive-btn {
+    display: none;
+  }
+
+  .get-image {
+    background: url(../images/images.png);
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+
+  .get-image2 {
+    background: url(../images/images2.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .menu ul li a {
+    font-size: 23px;
+  }
+
+  .started {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+
+  .rectangle2 img {
+    display: block;
+    margin-left: auto;
+    width: 90%;
+    padding: 119px;
+    padding-right: 30px;
+    padding-bottom: 0;
+  }
+
+  .rectangle2,
+  .rectangle,
+  .rectangle3 {
+    height: 100%;
+  }
+
+  .responsive-btn {
+    display: none;
+  }
+
+  .get-image {
+    background: url(../images/images.png);
+    /* height: 100%; */
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+
+  .get-image2 {
+    background: url(../images/images2.png);
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .responsive-btn {
+    display: none;
+  }
+}
+
+input+.switchery {
+  background-color: #2b2b2b !important;
+  border-color: #2b2b2bfa !important;
+}
+
+input:checked+.switchery {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+
+input:checked+.switchery-success {
+  border-color: #64bd63 !important;
+}
+
+.paypal-button {
+  position: sticky;
+}
+
+.mini-sidebar .update-plan {
+  display: none
+}
+
+@media (min-width: 768px) {
+
+  .mini-sidebar .left-sidebar:hover,
+  .view-text .user-profile,
+  .view-text #sidebarnav>li>a {
+    width: 180px !important;
+  }
+
+  .view-text .nav-small-cap,
+  .view-text .update-plan,
+  .view-text .hide-menu {
+    display: block !important;
+  }
+
+  .view-text #sidebarnav>li>a {
+    display: inline-flex !important;
+  }
+
+}
